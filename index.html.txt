@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Comida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site de Comida</h1>
+    </header>
+    <main>
+        <h2>Prato do Dia: Pizza Margherita</h2>
+        <p>Desfrute da deliciosa e classica Pizza Margherita com ingredientes frescos e molho de tomate caseiro.</p>
+        <img src="pizza.jpg" alt="Pizza Margherita">
+        <h3>Outros Pratos em Destaque:</h3>
+        <ul>
+            <li>Massa Carbonara</li>
+            <li>Tacos de Camarao</li>
+            <li>Sobremesa: Cheesecake de Morango</li>
+        </ul>
+        <p>Explore nossa variedade de pratos e saboreie o melhor da culinaria.</p>
+    </main>
+</body>
+</html>
